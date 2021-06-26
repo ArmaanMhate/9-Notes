@@ -1,0 +1,46 @@
+// .svg-container{
+//     width:400px;
+//     height:400px;
+// }
+.svg{
+    width:50vw;
+    height:50vh;
+    // position: ;
+    margin-top:20vh;
+    // margin-right: 10vw;
+}
+.homepage{
+    background-color: #222831;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -7vw;
+    color: whitesmoke;
+    text-align: center;
+
+}
+.content-paragraph{
+    margin-left: 50px;
+}
+.title{
+    margin-left:30px;
+    align-self: center;
+    justify-self: center;
+}
+.component-1{
+    height: 90vh;
+    // height: 90vh;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    // grid-template-rows: 5fr 1fr;
+}
+
+.custom-btn-1{
+    position: relative;
+    left: 15px;
+}

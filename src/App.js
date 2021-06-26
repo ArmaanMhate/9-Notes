@@ -1,5 +1,9 @@
-import logo from './logo.svg';
+import HomePage from './pages/homepage/home-page.component'
+import FindNotesPage from './pages/find-notes-page/find-notes-page.component'
+
+
 import './App.css';
+
 import {
   BrowserRouter as Router,
   Route,
@@ -16,14 +20,18 @@ function App() {
       <HeaderComponent></HeaderComponent>
     </div>
     <Switch>
-      <Route exact path='/about'>
-        <div>ABOUT US PAGE</div>
+
+      <Route exact path='/'>
+        <HomePage></HomePage>
+      </Route>
+      <Route exact path='/contact'>
+        <div>CONTACT US PAGE</div>
       </Route>
       <Route exact path='/contributers'>
         <div>CONTRIBUTERS PAGE</div>
       </Route>
       <Route exact path='/find'>
-        <div>GET NOTES PAGE</div>
+        <FindNotesPage></FindNotesPage>
       </Route>
       <Route exact path='/submit'>
         <div>SUBMIT NOTES PAGE</div>

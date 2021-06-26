@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import './header.styles.scss'
 import {
     BrowserRouter as Router,
-    Route,
-    Switch,
+    // Route,
+    // Switch,
     Link,
     NavLink
 } from 'react-router-dom'
@@ -20,7 +20,7 @@ export default class HeaderComponent extends Component {
             <div class="header">
                 <Link to="/"className="logo">9 NOTES</Link>
                 <div className="items">
-                    <NavLink to="/about" activeClassName="active"  className={`about-us item-1 item `}>About Us</NavLink>
+                    <NavLink to="/about" activeClassName="active"  className={`about-us item-1 item `}>Contact Us</NavLink>
                     <NavLink to="/find" activeClassName="active" className="about-us item-2 item">Get Notes</NavLink>
                     <NavLink to="/submit" activeClassName="active" className="about-us item-3 item">Submit Notes</NavLink>
                     <NavLink to="/contributers" activeClassName="active" className="about-us item-4 item">Contributers</NavLink>
