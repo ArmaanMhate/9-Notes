@@ -17,7 +17,7 @@ export default class HeaderComponent extends Component {
     //NavLink allows to conditionally render a class. https://reactrouter.com/web/api/NavLink
     render() {
         return (
-            <div class="header">
+            <div className="header">
                 <Link to="/"className="logo">9 NOTES</Link>
                 <div className="items">
                     <NavLink to="/about" activeClassName="active"  className={`about-us item-1 item `}>Contact Us</NavLink>

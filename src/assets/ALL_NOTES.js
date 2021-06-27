@@ -1,61 +1,33 @@
-export const ALL_NOTES={
-   maths:{
-        exponents:{
-            name:'exponents',
-            subject:'Maths',
-            author:'Armaan Mhate',
-            notes:'www.placeholder.com'
-        }
-   },
-   physics:{
-        chp:{
-            name:'chp1',
-            subject:'phy',
-            author:'Armaan Mhate',
-            notes:'www.placeholder.com'
-        }
-   },
-   chemistry:{
-       chp:{
-            name:'chp1',
-            subject:'phy',
-            author:'Armaan Mhate',
-            notes:'www.placeholder.com'
-        }
-   },
-   biology:{
-       chp:{
-            name:'chp1',
-            subject:'phy',
-            author:'Armaan Mhate',
-            notes:'www.placeholder.com'
-        }
-   },
-   englishLanguage:{
-       chp:{
-            name:'chp1',
-            subject:'phy',
-            author:'Armaan Mhate',
-            notes:'https://drive.google.com/file/d/1nisaF8LcwWdY5-5qKv-4NrWTw9Q5KRVw/view?usp=sharing'
-        }
-   },
-   englishLiterature:{
+export const ALL_NOTES=[
+    {
+         name:'exponents',
+         subject:'Maths',
+         author:'Armaan Mhate',
+         notes:'www.placeholder.com'
+    },
+    {
+         name:'"current electricity"',
+         subject:'Physics',
+         author:'Armaan Mhate',
+         notes:'www.placeholder.com'
+    },
+    {
+         name:'"Merchant Of Venice Act-1 Scene-1"',
+         subject:'English Literature',
+         author:'Armaan Mhate',
+         notes:'www.placeholder.com'
+    },
+    {
+         name:'"Introduction to Java"',
+         subject:'Computer',
+         author:'Armaan Mhate',
+         notes:'www.placeholder.com'
+    },
+    {
+         name:'"prepositions"',
+         subject:'English Language',
+         author:'Armaan Mhate',
+         notes:'www.drive.google.com'
+    },
 
-   },
-   hindi:{
-
-   },
-   computer:{
-
-   },
-   geography:{
-
-   },
-   history:{
-
-   },
-   pe:{
-
-   },
-
-}
+]

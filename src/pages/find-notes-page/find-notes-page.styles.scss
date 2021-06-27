@@ -1,0 +1,34 @@
+body{
+    background-color: #222831;
+}
+.find-notes-page{
+    // background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // background-color: #222831;
+    background-size:cover;
+    // min-height: 90vw;
+
+
+}
+.searchbar{
+    // margin-top: 20px ;
+}
+.notes-list{
+    display: flex;
+    justify-content: center;
+    // background-color: black;
+    width: fit-content;
+    flex-direction: column;
+    margin: 20px;
+    // &:nth-child(2){
+    //     background-color: grey;
+    // }
+}
+.notes-card{
+    margin: 20px; 
+    background: linear-gradient(to left bottom,#49a09d, #5f2c82);
+    
+}
