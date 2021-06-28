@@ -6,8 +6,8 @@ import "./note-card.styles.scss"
 export default function NoteCard(props) {
     return (
         <Link to={{ pathname: `${props.link} ` }} target="_blank" className={`note-card ${props.className}`}>
-            <span className="notes-chapter note-card-item">Chapter Name:{props.chapter}</span>
-            <span className="notes-subject note-card-item">Subject:{props.subject}</span>
+            <span className="notes-chapter note-card-item"><h2>{props.chapter}</h2></span>
+            <span className="notes-subject note-card-item"><h3>{props.subject}</h3></span>
             <span className="notes-author note-card-item">Submitted By:{props.author}</span>
         </Link>
     )

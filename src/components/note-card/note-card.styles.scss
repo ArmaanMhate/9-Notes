@@ -2,9 +2,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr 1fr ;
-    // width: 60vw;
-    // height: 5vw;
+    width: 60vw;
+    height: 10vw;
+    justify-content: space-between;
+    background-color: #393E46;
+    color: white;
+    text-decoration: none;
 }
 .note-card-item{
-    padding: 20px;
+    padding-left: 20px;
+}
+.notes-subject{
+    position: relative;
+    left: 100px;
 }
